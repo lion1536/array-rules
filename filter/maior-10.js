@@ -3,8 +3,8 @@ import { stdin as input, stdout as output } from "process";
 
 const rl = readline.createInterface({ input, output });
 
-const array = [1, 2, 3, 4, 5];
-const double = array.map((x) => x * 2);
-console.log(double);
+const numbers = [2, 7, 10, 35, 345, 3134, 54];
+const resultado = numbers.filter((result) => result > 10);
+console.log(resultado);
 
 rl.close();
